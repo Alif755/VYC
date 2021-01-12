@@ -1,0 +1,173 @@
+/* check for white space - One of your elements it's causing that margin. To find out you can set all elements outline border for 1px red and then fix it. */
+/* *{
+    outline: 1px solid red;
+} */
+
+/* Header Section Start*/
+.header-section {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background-color: #f9f9f9;
+}
+
+.nav-section {
+    padding: 20px 50px;
+}
+
+a, 
+a:hover {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.nav-section .nav-logo {
+    max-height: 45px;
+}
+
+.get-in-touch-container {
+  font-size: 25px;
+  font-weight: 900;
+  color: black;
+}
+
+.get-in-touch-container .icon {
+    padding-right: 8px;
+}
+
+.get-in-touch {
+    padding-right: 65px;
+}
+/* Header Section End */
+
+/* Banner Section Start */
+.banner-section img {
+    width: 100%;
+    height: auto;   
+}
+
+.banner-heading {
+    position: relative;
+}
+/* Banner Section End */
+
+/* Product Section Start */
+.product-section {
+    padding: 30px 0 30px 0;
+    background-color: #e3e3e3;
+}
+
+.heading{
+    text-align: center;
+    font-size: 112px;
+    font-weight: 900;
+    color:  #ffc948;
+    padding-bottom: 25px;
+}
+
+.content {
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 40px;
+    padding-bottom: 50px;
+}
+
+.box1 {
+    background-image: url('../img/ecommerce.jpg');
+    background-size: cover;
+    position: relative;
+    padding: 250px 30px 150px 30px;
+    margin-top: 30px;
+}
+
+.box2 {
+    background-image: url('../img/training.jpg');
+    background-size: cover;
+    position: relative;
+    padding: 250px 30px 150px 30px;
+    margin-top: 30px;
+}
+
+.box-contents {
+    background: #e3e3e3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    /* position: relative; */
+    padding: 0 30px;
+    text-align: center;
+
+}
+
+.box-contents h1 {
+    font-size: 55px;
+    font-weight: 900;
+}
+
+.box-contents p {
+    font-weight: 600;
+}
+/* Product Section End */
+
+/* Contact Section Start */
+.contact {
+    background-color: #231f20;
+    color: #ffc948;
+}
+
+.contact .contact-heading h1 {
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 1.1em;
+    text-align: center;
+    padding: 90px 0px;
+}
+
+.contact .contact-text {
+    content: "";
+    position: relative;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 32px;
+    line-height: 1.1em;
+    padding: 87px 0px 0px 0px;
+    text-align: center;
+}
+
+.contact .contact-text:before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    opacity: 1.1;
+    background-color: #ffc948;
+    top: 0;
+    left: 0;
+}
+
+.container .contact-text {
+    padding: 70px 0px 70px 0px;
+}
+
+.contact-text a {
+    color: #ffc948;
+    font-weight: 400;
+}
+/* Contact Section End */
+
+/* Footer Section Start */
+footer {
+    background-color:  #ffc948;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding: 30px 40px;
+    display: flex;
+    justify-content: center;
+}
+/* Footer Section End */
